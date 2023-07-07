@@ -1,0 +1,187 @@
+.banner-bg {
+  background-image: url('../src/assets/img/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.title {
+  font-weight: 900;
+  text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.505);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+
+
+
+/* service  */
+
+.info_item {
+  /* width: 350px; */
+  height: 40px;
+  /* background-color: bisque; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4rem;
+  border-top-left-radius: 0%;
+  color: #B40303;
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.info_item_img {
+  background-color: antiquewhite;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  left: 0%;
+  border-radius: 100%;
+  border-top-left-radius: 0%;
+  background-color: #B40303;
+  color: rgb(255, 255, 255);
+  padding: .5rem;
+}
+
+.info_item_content span {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+
+
+.icon {
+  transform: scale(3);
+}
+
+
+.service {
+  background-image: url('../src/assets/img/service.png');
+}
+
+
+.card {
+  backdrop-filter: blur(10px);
+}
+
+
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+
+}
+
+.swiper-div {
+  height: 300px;
+  width: 350px !important;
+  background-color: rgba(255, 255, 255, 0.205);
+  box-shadow: rgba(255, 139, 139, 0.2) 0px 2px 8px 0px;
+  backdrop-filter: blur(10px);
+}
+
+/* .swiper-div div{
+height: 100% !important;
+width: 100% !important;
+background-color: rgb(255, 255, 255) !important;
+} */
+
+
+
+.user-img {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+
+.backdrop {
+  backdrop-filter: blur(100px);
+}
+
+
+
+.about-banner{
+  background-image: url('./assets/img/about.png');
+  background-size: 100% ;
+}
+
+
+
+.review-bg{
+  background-image: url('./assets/img/review.png');
+  background-attachment: fixed;
+}
+
+
+/* table  */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-weight: 400;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #b01c0f;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-bg{
+  background-image: url('https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?w=900&t=st=1687035956~exp=1687036556~hmac=e77d9dc8d870baef0288676d43e0e1f54fd62f4f8e5159b583bfd6fd699f8048');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.card-login{
+  background-color: #ffffff51;
+  backdrop-filter: blur(20px);
+}
